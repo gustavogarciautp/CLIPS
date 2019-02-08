@@ -1,0 +1,27 @@
+(assert
+         (situacion-alumno
+            (nivelProfe dificil)
+            (nivelProgra avanzado)
+            (horarioDisp manana)
+            (maxFaltas > 5)))
+
+(assert
+         (situacion-alumno
+            (nivelProfe dificil)
+            (nivelProgra intermedio)
+            (horarioDisp noche)
+            (maxFaltas < 5)))
+
+(assert
+         (situacion-alumno
+            (nivelProfe facil)
+            (nivelProgra basico)
+            (horarioDisp manana)
+            (maxFaltas < 5)))
+
+(assert
+         (situacion-alumno
+            (nivelProfe pasable)
+            (nivelProgra avanzado)
+            (horarioDisp tarde)
+            (maxFaltas < 5)))
